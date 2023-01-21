@@ -66,7 +66,7 @@ async function display_calendar(year) {
   document.body.innerHTML = "";
 
   var heading = document.createElement("h1");
-  heading.innerHTML = "Onze Familie-agenda";
+  heading.innerHTML = "Onze Gezinsagenda";
   document.body.appendChild(heading);
 
   var year_input = document.createElement("input");
